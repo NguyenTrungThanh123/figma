@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins';
+}
+
+.container-fluid{
+    width: 1440px !important;
+    height: 1024px !important;
+    position: relative;
+    background-color: #E6F3FF;
+}
+.frame2{
+    
+    width: 596px;
+    height: 1021px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.frame2 img{
+    position: absolute;
+}
+
+.MainImage{
+    width: 419px;
+    height: 613px;
+    left: 47px;
+    top: 190px;
+}
+.BlobsVector{
+    width: 550px;
+    height: 469px;
+    left: 0;
+    top: 488px;
+}
+.BlobsVector2{
+    height: 607px;
+    width: 530px;
+    left: 114px;
+    top: 70px;
+}
+.BlobsVector3{
+    height: 661px;
+    width: 526px;
+    left: 24px;
+    top: 143px;
+}
+.content-frame{
+    width: 845px;
+    height: 1024px;
+    background-color: #FCFEFF;
+    top: 0;
+    left: 595px;
+    position: absolute;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.title-frame{
+    font-size: 26px;
+    font-weight: 600;
+    height: 39px;
+    width: 337px; 
+    display: block;
+    margin-top: 124px;
+   
+}
+form{
+    margin-top: calc(52px - 41px);
+}
+.form-group{
+    width: 600px;
+    height: 95px;
+    margin-top: 41px;
+}
+.form-group label{
+    color: #7C838A;
+    font-weight: 500;
+    font-size: 20px;
+}
+.form-group input{
+    background-color: #dee3e7;
+    color: #92979b;
+    height: 65px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+.create-button{
+    color: #000;
+    background-color: #F9ED32;
+    width: 340px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 26px;
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: center;
+    border: none;
+    margin-left: calc((600px - 340px)/2);
+}
+.login-click{
+    font-weight: 400;
+    font-size: 18px;
+    color: #7C838A;
+    margin-top: 15px;
+}
+.login-click>a{
+    color: #F9ED32;
+    text-decoration: none;
+}
+.content-frame .or{
+    color: #B0BAC3;
+    font-weight: 500;
+    font-size: 26px;
+}
+.link-sign{
+    display: flex;
+   
+}
+.link-sign .signUp{
+    border-radius: 15px;
+    border: 1px solid #7C838A;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7C838A;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    display: flex;
+    height: 55px;
+    width: 220px;
+    vertical-align: middle;
+}
+.link-sign .signUp.google{
+    margin-right: 81px;
+}
+.link-sign .signUp img{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.link-sign .signUp p{
+    margin: auto;
+}
+.content-frame .reserved{
+    font-weight: regular;
+    font-size: 20px;
+    color: #7C838A;
+    margin-top: 84px;
+}
